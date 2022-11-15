@@ -5,7 +5,7 @@ os.system('cls')
 userInput = input('Are you from Canada? [Y/n] ').casefold()
 fromCanada = True if userInput == 'y' or userInput == '' else False
 theProvinceInCanada = '-'
-tax = '-'
+tax = 0
 
 if fromCanada:
     os.system('cls')
